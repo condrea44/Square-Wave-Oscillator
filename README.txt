@@ -1,0 +1,1 @@
+Square Wave Oscillator: Created a square wave oscillator with adjustable frequency range, duty cycle and amplitude, offering flexibility for various applications.
