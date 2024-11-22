@@ -1,0 +1,156 @@
+(ExpressProject "P1-COSMIN"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[11/22/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib")
+        (Type "Schematic Library"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib")
+        (Type "Schematic Library")))
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Display_Online_DRC_Results "FALSE")
+    (FALSE)
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "D:\P1-CONDREA_COSMIN - BUN\1\P1-COSMIN.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "D:\P1-CONDREA_COSMIN - BUN\1\P1-COSMIN.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "TRUE")
+    (RootChangedForceReNetlist "x")
+    (File ".\p1_2024_432d_condrea_cosmin_gsd_n9_orcad.DSN"
+      (Type "Schematic Design")
+      (DisplayName ".\p1_2024_432d_condrea_cosmin_gsd_n9_orcad.DSN")))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\p1-cosmin.bom"
+      (Type "Report")
+      (DisplayName ".\p1-cosmin.bom"))
+    (File
+       ".\p1_2024_432d_condrea_cosmin_gsd_n9_orcad-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2024_432d_condrea_cosmin_gsd_n9_orcad-pspicefiles\schematic1\v_out_frecventa.sim"
+        (DisplayName "SCHEMATIC1-V_out_frecventa")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2024_432d_condrea_cosmin_gsd_n9_orcad-pspicefiles\schematic1\psf.sim"
+        (DisplayName "SCHEMATIC1-psf")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\p1_2024_432d_condrea_cosmin_gsd_n9_orcad-pspicefiles\schematic1\variatia_temperaturii.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\p1_2024_432d_condrea_cosmin_gsd_n9_orcad-pspicefiles\schematic1\variatia_temperaturii.sim"
+        (DisplayName "SCHEMATIC1-variatia_temperaturii")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc817-25.lib"))
+      (File "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\lib_modelepspice_anexa_1\modele_a1_lib\bc846b.lib"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\TCLSCRIPTS\CAPPSPICEMODELAPP\LED\HYBRID\SUPPORTFILES\LED.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (QBC846B
+      (FullPartName "QBC846B.Normal")
+      (LibraryName
+         "D:\CEF P1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC846B.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (QBC817-25
+      (FullPartName "QBC817-25.Normal")
+      (LibraryName
+         "D:\CEF P1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC817-25.OLB")
+      (DeviceIndex "0"))
+    (QBC856B
+      (FullPartName "QBC856B.Normal")
+      (LibraryName
+         "D:\CEF P1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\BC856B.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "D:\CEF P1\LIB_MODELEPSPICE_ANEXA_1\MODELE_A1_LIB\1N4148.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "cosmi")
+  (LastUsedLibraryBrowseDirectory
+     "D:\CEF P1\Lib_ModelePSpice_Anexa_1\Modele_A1_lib")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD\Schematics\proiect\p1_2024_432d_condrea_cosmin_gsd_n9_orcad.DSN")
+      (Path "Design Resources"
+         "C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD\Schematics\proiect\p1_2024_432d_condrea_cosmin_gsd_n9_orcad.DSN"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 821"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1674 24 839")
+        (Scroll "-299 -6")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\COSMI\ONEDRIVE - UNIVERSITATEA POLITEHNICA BUCURESTI\DESKTOP\P1_2024_432D_CONDREA_COSMIN_GSD_N9_ORCAD\SCHEMATICS\PROIECT\P1_2024_432D_CONDREA_COSMIN_GSD_N9_ORCAD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
