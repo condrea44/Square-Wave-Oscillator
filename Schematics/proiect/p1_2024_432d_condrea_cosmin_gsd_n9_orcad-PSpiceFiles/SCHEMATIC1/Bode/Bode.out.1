@@ -1,0 +1,90 @@
+
+**** 01/18/25 10:39:34 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Bode"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\downloadad\P1_2024_432D_Condr
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Bode.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/downloadad/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Sch"
++ "ematics/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/downloadad/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Sch"
++ "ematics/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\cosmi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 0.1 1G
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source P1_2024_432D_CONDREA_COSMIN_GSD_N9_ORCAD
+R_R1         N99479 VCC  1k TC=0,0 
+X_P1         0 N50631 N21962 POT PARAMS: SET=1 VALUE=10k
+Q_Q2         N28905 N01033 VSS QBC817-25 
+Q_Q1         N00941 N00925 VSS QBC817-25 
+V_VCC         VCC 0 9Vdc
+V_VSS         0 VSS 9Vdc
+Q_Q3         N29003 N49952 VSS QBC846B 
+Q_Q4         N49304 N29003 VSS QBC846B 
+R_R12         N29003 VCC  3.3k TC=0,0 
+X_P2         N29145 VOUT 0 POT PARAMS: SET=1 VALUE=100k
+R_R6         N00925 N21962  8.200k TC=0,0 
+R_R5         N01033 N21962  8.200k TC=0,0 
+R_R23         N21962 N45816  3.3k TC=0,0 
+R_R11         N28905 N49952  100k TC=0,0 
+R_R24         N45816 0  1k TC=0,0 
+C_C3         N00925 N28905  1n  TC=0,0 
+C_C4         N00925 N28905  1n  TC=0,0 
+C_C1         N00941 N01033  1n  TC=0,0 
+C_C2         N00941 N01033  1n  TC=0,0 
+R_RL1         N92755 VOUT  6.8k TC=0,0 
+R_R19         N29145 N63469  15k TC=0,0 
+R_R20         N63469 0  10k TC=0,0 
+X_D1         VCC N65723 LED PARAMS: IS=7.0822e-18 RS=2  BV=5 IBV=10e-6         
+X_D2         0 N65438 LED PARAMS: IS=7.0822e-18 RS=2  BV=5 IBV=10e-6         
+R_R25         N65723 0  680 TC=0,0 
+R_R27         N65438 VSS  680 TC=0,0 
+R_R26         N65723 0  680 TC=0,0 
+R_R28         N65438 VSS  680 TC=0,0 
+C_C5         N29003 N49304  47p  TC=0,0 
+R_R17         N92191 N49304  10k TC=0,0 
+R_R18         N29145 N92191  8.2k TC=0,0 
+R_RL2         0 N92755  2.2k TC=0,0 
+R_R22         N98672 N50631  330 TC=0,0 
+R_R21         VCC N98672  330 TC=0,0 
+R_R2         N99483 VCC  1k TC=0,0 
+R_R4         N00941 N99483  1k TC=0,0 
+R_R3         N00941 N99479  1k TC=0,0 
+R_R9         N28905 N100051  1k TC=0,0 
+R_R7         N100051 VCC  1k TC=0,0 
+R_R10         N28905 N100055  1k TC=0,0 
+R_R8         N100055 VCC  1k TC=0,0 
+R_R13         N49304 VCC  3.9k TC=0,0 
+R_R14         N49304 VCC  3.9k TC=0,0 
+R_R15         N49304 VCC  3.9k TC=0,0 
+R_R16         N49304 VCC  3.9k TC=0,0 
+V_V1         VCC VSS  AC 1
++SIN 0 1 1k 0 0 0
+
+**** RESUMING Bode.cir ****
+.END
+
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving V_V1. You may break the loop by adding a series resistance
+

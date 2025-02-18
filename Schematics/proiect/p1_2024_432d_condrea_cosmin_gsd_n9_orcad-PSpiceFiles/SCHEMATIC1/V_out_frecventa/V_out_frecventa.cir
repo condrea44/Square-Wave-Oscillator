@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD\Schematics\proiect\p1_2024_432d_condrea_cosmin_gsd_n9_orcad-PSpiceFiles\SCHEMATIC1\V_out_frecventa.sim ] 
+** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\downloadad\P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD\Schematics\proiect\p1_2024_432d_condrea_cosmin_gsd_n9_orcad-pspicefiles\schematic1\v_out_frecventa.sim ] 
 
 ** Creating circuit file "V_out_frecventa.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -6,10 +6,10 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Schematics/lib"
-+ "_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
-.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Schematics/lib"
-+ "_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/downloadad/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Sch"
++ "ematics/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/downloadad/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Sch"
++ "ematics/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
 * From [PSPICE NETLIST] section of C:\Users\cosmi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
 .lib "nom.lib" 
 

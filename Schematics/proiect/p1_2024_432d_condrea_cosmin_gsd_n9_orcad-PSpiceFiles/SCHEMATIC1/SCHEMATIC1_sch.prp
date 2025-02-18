@@ -456,7 +456,7 @@
             ("level"	"0")
             ("model_params"
                 ("SET"
-                    ("value"	"1")
+                    ("value"	"0")
                     ("pspice_param"	"SET")
                 )
                 ("VALUE"

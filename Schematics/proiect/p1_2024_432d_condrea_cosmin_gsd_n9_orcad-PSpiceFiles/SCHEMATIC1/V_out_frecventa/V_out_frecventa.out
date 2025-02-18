@@ -1,7 +1,7 @@
+
+**** 01/19/25 13:32:48 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
 
-**** 11/22/24 15:26:08 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
-
- ** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_432D_Condr
+ ** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\downloadad\P1_2024
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,10 +18,10 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Schematics/lib"
-+ "_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
-.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Schematics/lib"
-+ "_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/downloadad/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Sch"
++ "ematics/lib_modelepspice_anexa_1/modele_a1_lib/bc817-25.lib" 
+.LIB "C:/Users/cosmi/OneDrive - Universitatea Politehnica Bucuresti/Desktop/downloadad/P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD/Sch"
++ "ematics/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
 * From [PSPICE NETLIST] section of C:\Users\cosmi\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
 .lib "nom.lib" 
 
@@ -44,7 +44,7 @@ V_VSS         0 VSS 9Vdc
 Q_Q3         N29003 N49952 VSS QBC846B 
 Q_Q4         N49304 N29003 VSS QBC846B 
 R_R12         N29003 VCC  3.3k TC=0,0 
-X_P2         N29145 N47329 0 POT PARAMS: SET=1 VALUE=100k
+X_P2         N29145 N47329 0 POT PARAMS: SET=0 VALUE=100k
 R_R6         N00925 N21962  8.200k TC=0,0 
 R_R5         N01033 N21962  8.200k TC=0,0 
 R_R23         N21962 N45816  3.3k TC=0,0 
@@ -84,9 +84,9 @@ R_R16         N49304 VCC  3.9k TC=0,0
 **** RESUMING V_out_frecventa.cir ****
 .END
 
-**** 11/22/24 15:26:08 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+**** 01/19/25 13:32:48 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_432D_Condr
+ ** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\downloadad\P1_2024
 
 
  ****     Diode MODEL PARAMETERS
@@ -105,9 +105,9 @@ R_R16         N49304 VCC  3.9k TC=0,0
           RS    2               2            
 
 
-**** 11/22/24 15:26:08 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+**** 01/19/25 13:32:48 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_432D_Condr
+ ** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\downloadad\P1_2024
 
 
  ****     BJT MODEL PARAMETERS
@@ -165,9 +165,9 @@ R_R16         N49304 VCC  3.9k TC=0,0
 
           JOB CONCLUDED
 
-**** 11/22/24 15:26:08 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+**** 01/19/25 13:32:48 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\P1_2024_432D_Condr
+ ** Profile: "SCHEMATIC1-V_out_frecventa"  [ C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\downloadad\P1_2024
 
 
  ****     JOB STATISTICS SUMMARY

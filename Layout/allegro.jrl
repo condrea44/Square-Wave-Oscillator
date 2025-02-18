@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:02)     Journal start - Sat Dec 14 22:17:15 2024
+\t (00:00:02)         Host=COSMIN User=cosmi Pid=18984 CPUs=8
+\t (00:00:02) CmdLine= C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:02) 
+\t (00:00:02) Starting new design...
+\i (00:00:02) trapsize 1073
+\i (00:00:02) trapsize 1041
+\i (00:00:02) trapsize 1078
+\i (00:00:03) trapsize 882
+\i (00:00:03) trapsize 1371
+\i (00:00:03) generaledit 
+\i (00:00:06) open 
+\i (00:00:18) fillin "C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\New folder\P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD (3)\Layout\Layout\allegro\LAYOUT.brd"
+\i (00:00:18) cd "C:\Users\cosmi\OneDrive - Universitatea Politehnica Bucuresti\Desktop\New folder\P1_2024_432D_Condrea_Cosmin_GSD_N9_OrCAD (3)\Layout\Layout\allegro"
+\t (00:00:18) Opening existing design...
+\i (00:00:18) trapsize 357
+\t (00:00:18)     Journal end - Sat Dec 14 22:17:31 2024
